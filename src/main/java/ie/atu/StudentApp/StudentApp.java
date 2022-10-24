@@ -21,5 +21,22 @@ public class StudentApp {
         String course = input.nextLine();
         studentInfo.setCourse(course);
         System.out.println("You entered: " + studentInfo.getCourse());
+
+        System.out.println("Please enter a second student name:");
+        Student studentInfo2 = new Student();
+        String name2 = input.nextLine();
+        studentInfo2.setCourse(name2);
+        System.out.println("You entered: " + studentInfo2.getName());
+
+        System.out.println("Please enter a second student email:");
+        String email2 = input.nextLine();
+        studentInfo2.setCourse(email2);
+        System.out.println("You entered: " + studentInfo2.getEmail());
+
+        System.out.println("Please enter a second student course:");
+        String course2 = input.nextLine();
+        studentInfo2.setCourse(course2);
+        System.out.println("You entered: " + studentInfo2.getCourse());
+
     }
 }
