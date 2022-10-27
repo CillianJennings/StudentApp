@@ -38,5 +38,9 @@ public class StudentApp {
         studentInfo2.setCourse(course2);
         System.out.println("You entered: " + studentInfo2.getCourse());
 
+        Student studentInfo3 = new Student("Jack", "G007", "Business"); //Third Object
+        System.out.println("You entered for name: " + studentInfo3.getName());
+        System.out.println("You entered for email: " + studentInfo3.getEmail());
+        System.out.println("You entered for course: " + studentInfo3.getCourse());
     }
 }
