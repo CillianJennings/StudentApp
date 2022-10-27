@@ -7,7 +7,7 @@ public class StudentApp {
 
         System.out.println("Please enter your name:");
         Scanner input = new Scanner(System.in);
-        Student studentInfo = new Student();
+        Student studentInfo = new Student(); //First Object
         String name = input.nextLine();
         studentInfo.setName(name);
         System.out.println("You entered: " + studentInfo.getName());
@@ -23,7 +23,7 @@ public class StudentApp {
         System.out.println("You entered: " + studentInfo.getCourse());
 
         System.out.println("Please enter a second student name:");
-        Student studentInfo2 = new Student();
+        Student studentInfo2 = new Student(); //Second Object
         String name2 = input.nextLine();
         studentInfo2.setName(name2);
         System.out.println("You entered: " + studentInfo2.getName());
@@ -37,5 +37,6 @@ public class StudentApp {
         String course2 = input.nextLine();
         studentInfo2.setCourse(course2);
         System.out.println("You entered: " + studentInfo2.getCourse());
+
     }
 }
